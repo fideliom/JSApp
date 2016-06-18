@@ -1,0 +1,12 @@
+.square {
+	border : solid 1px black;
+	width : 10px;
+	height : 10px;
+	display : inline-block;
+}
+
+.grid{
+	width : 500px;
+	height : 500px;
+	border : solid 1px black;
+}
