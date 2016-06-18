@@ -1,12 +1,35 @@
+* {
+	margin : 0 0 0 0;
+	padding : 0 0 0 0;
+	box-sizing : border-box;
+}
+
 .square {
-	border : solid 1px black;
-	width : 10px;
-	height : 10px;
-	display : inline-block;
+	border : 1px solid black;
+	width : 20px;
+	height :20px;
+	display : block;
+	background : white;
+	padding : 0;
+	float : left;
 }
 
 .grid{
 	width : 500px;
 	height : 500px;
 	border : solid 1px black;
+	margin : 0 auto;
+	padding : 0;
+}
+
+.hovered {
+	background : black;
+}
+
+.green {
+	background : green;
+}
+
+.grey {
+	background : grey;
 }
